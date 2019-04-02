@@ -1,0 +1,100 @@
+/**
+ * Base
+ * Copyright 2018
+ * Author
+ * Licensed 
+ */
+/*------------------------------------*\
+    Content
+\*------------------------------------*/
+/**
+ * Content............You're reading it!
+ * Globel...............Set common style
+ * Core
+ */
+ 
+/*------------------------------------*\
+    Core
+\*------------------------------------*/
+
+/* Default styles */
+*{
+	box-sizing: border-box;
+	position: relative;
+}
+html,body{
+	font-family:"Noto Sans TC", arial ,"微軟正黑體";
+}
+h1,h2,h3,h4,h5,h6,p{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+/*------------------------------------*\
+    Globel
+\*------------------------------------*/
+
+/* background color */
+.bgc--black{
+	background-color: #000;
+}
+.bgc--brown{
+	background-color: #d5a26f;
+}
+.bgc--grey{
+	background-color: #ccc;
+}
+.bgc--tran{
+	background-color: transparent;
+}
+
+/* text color */
+.color--white{
+	color: #fff;
+}
+.color--grey{
+	color: #333;
+}
+.color--green{
+	color: #5B9865;
+}
+.color--brown{
+	color: #d5a26f;
+}
+.color--alert{
+	color: #BB7C3E;
+}
+
+/*------------------------------------*\
+    Utility
+\*------------------------------------*/
+
+
+/* text */
+.text-center{
+	text-align: center !important;
+}
+
+/* align center */
+.align-items-center{
+	align-items: center;
+}
+/* float */
+.u-float-left{float: left !important;}
+.u-float-right{float: right !important;}
+
+/* center block */
+.u-center-block{
+	display: block !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
